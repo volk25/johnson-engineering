@@ -1,0 +1,34 @@
+{
+    "items": [   
+        {
+            "item_id":1,
+            "item_code":"BRG1",
+            "item_name":"Carlson Bridge",
+            "item_description":"Completed in 2006, New York's Carlson Bridge was so breathtaking in beauty and form that it won three major awards in a two-year span. The total length of the structure spans almost 2,600 meters, carrying pedestrians and cyclists over the Salty Ray River."
+        },
+        {
+            "item_id":2,
+            "item_code":"BRG2",
+            "item_name":"Kung Pao Bridge",
+            "item_description":"At it's highest point Kung Pao Bridge is just over 118 feet, making it Sao Kuh's tallest bridge. The modern bridge is surrounded by the regions lush natural foliage. It connects Baukor Sato Park and Sai Tun Hill Park."
+        },
+        {
+            "item_id":3,
+            "item_code":"BRG3",
+            "item_name":"Palm's String Bridge",
+            "item_description":"One of the longest pre-stressed concrete span in use in the Southern Silverpool. Featuring 26 spans, known as anchor spans. Most of the spans are 61m. The total length is 1,287 metres from Wherstead to the site of the former Somland Airport. The width is 24 metres with an air draft of 43 metres; the bridge had to be at least 41 metres high. The approach roads were designed by Catsbie & Co., later bought by Williams Inc., in 2007."
+        },
+        {
+            "item_id":4,
+            "item_code":"BRG4",
+            "item_name":"Silver Gate Bridge",
+            "item_description":"Completed in 2008, Silver Gate Bridge is an iconic landmark that stands out within a city packed with incredible architecture. Designed by starchitect Jose Santarelli, the structure is equally as beautiful to look at from above as it is from below."
+        }
+    ],
+    "category":
+        {
+        "category_code":"BRG",
+        "category_name":"Bridges",
+        "category_description":"A bridge is a structure built to span a physical obstacle (such as a body of water, valley, road, or rail) without blocking the way underneath. It is constructed for the purpose of providing passage over the obstacle, which is usually something that is otherwise difficult or impossible to cross. There are many different designs of bridges, each serving a particular purpose and applicable to different situations. Designs of bridges vary depending on factors such as: the function of the bridge, the nature of the terrain where the bridge is constructed and anchored, and the material used to make it and the funds available to build it."
+        }
+}

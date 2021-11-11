@@ -1,0 +1,34 @@
+{
+    "items": [   
+        {
+            "item_id":1,
+            "item_code":"CML1",
+            "item_name":"Ocean's Drive Offices",
+            "item_description":"This structure is an office building with 5 floors including a lower level and a penthouse. The twelve story office building has a total of 6.000 square meters in surface area. The parking for this structure is compensated by a parking garage. The basement garage has 14 spaces, surface parking has 24 spaces, and future garage has 300 spaces. There is two elevators adjacent to each other and another elevator located by the fire command center."
+        },
+        {
+            "item_id":2,
+            "item_code":"CML2",
+            "item_name":"Kam Pei Tower",
+            "item_description":"An iconic building, this office tower of 150 meters high. Currently under construction, it will be the tallest tower in the Cool district, in the center of Portsmouth. The volume has a triple crown, top center and bottom."
+        },
+        {
+            "item_id":3,
+            "item_code":"CML3",
+            "item_name":"Golden Tree Building",
+            "item_description":"Thanks in part to the contribution of Johnson Engineering, Hotel Du Port is the first stand-alone hotel in the Southern Fortberg to be awarded a CHTTA (5 stars) excellent design certificate. The building envelope is located in a striking location near the SEE congress center. The design team was commissioned to realize a building within a tight budget with its own identity that fits in with the surrounding architecture."
+        },
+        {
+            "item_id":4,
+            "item_code":"CML4",
+            "item_name":"Joel's Building",
+            "item_description":"Completed in 2008, the building on Rose Square is an important innovative addition to the CTG complex on Padding Square. This strengthens the CTG's position as a leading international exhibition and conference center. It is a very sustainable and multifunctional office/conference building with restaurant."
+        }
+    ],
+    "category":
+        {
+        "category_code":"CML",
+        "category_name":"Commercial Structures",
+        "category_description":"In this section a brief walkthrough inside the practical experise of the company in commercial constructions is presented. The company has been involved in the most relevant design and building processes by advising world renamed Engineering and Architectural bureaus."
+        }
+}

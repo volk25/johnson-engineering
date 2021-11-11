@@ -1,0 +1,540 @@
+/* HOME PAGE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the body */
+body {
+    font-size: 16px;
+    color: #ffde59;
+    background-color: #737373;
+    font-family: 'Old Standard TT', serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/* HEADER ------------------------------------------------------------------------------------------------------------------------*/
+
+#header-nav {
+    background-color: #737373;
+    border-radius: 0;
+    border: 0;
+}
+
+/* Style of the logo */
+.logo {
+    background: url('../images/main-logo-large.gif') no-repeat;
+    position: relative;
+    width: 150px;
+    height: 125px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+/* Style of the general navbar */
+.navbar-brand {
+    padding-top: 25px;
+}
+
+/* Style of the primary text on the navbar */
+.navbar-brand h1 {
+    font-family: 'Old Standard TT', serif;
+    color: #ffde59;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+/* Style of the secondary text on the navbar */
+.navbar-brand p {
+    color: #ffde59;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-top: 15px;
+}
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+/* NAVIGATION MENU (actually part of the header) --------------------------------------------------------------------------------------------*/
+
+/* Style of the navigation button */
+.icon-bar {
+    border: 1px solid #ffde59;
+}
+.navbar-header button.navbar-toggle {
+    border: 1px solid #ffde59;
+    clear: both;
+    margin-top: -50px;
+}
+
+/* Style of the navigation unordered list */
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #ffde59;
+    text-align: center;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#nav-list a:hover, #nav-list a:focus {
+    background: #ffde59;
+    color: #737373;
+}
+.active a {  /* redefinition of the Bootstrap class "active" */
+    background: #ffde59 !important;
+    color: #737373 !important;
+}
+
+/* JUMBOTRON ----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Some stylings for the jumbotron (the rest of the styling is done in the media queries)*/
+.container .jumbotron {
+    border: #ffde59 solid 4px;
+    border-radius: 0;
+}
+
+/* MENU TILES ---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Style common to all the menu tiles */
+.home-tile {
+    height: 250px;
+    width: 100%; /* this means that the width is 100% of the container (not of the screen!) */
+    margin-bottom: 15px;
+    position: relative; /* this will set up the 'anchor' for the child elements*/
+    overflow: hidden; 
+    border: #ffde59 solid 4px;
+    border-radius: 0;  
+}
+.home-tile:hover {
+    box-shadow: 0 1px 5px 1px #ffde59; /* the elements will 'shine' when we pass the pointer on them */
+}
+
+/* Style of the tile names */
+.home-tile span {
+    position: absolute; /* this means that it's absolute respect to the parent element (same principle for further settings)*/
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #737373;
+    color: #ffde59;
+    opacity: 0.8;
+}
+
+/* Style of the menu tile */
+#projects-tile {
+    background: url('../images/projects-tile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; /* the elements will be positioned at the center of its container */
+}
+
+/* Style of the specials tile */
+#expertise-tile {
+    background: url('../images/expertise-tile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; /* the elements will be positioned at the center of its container */
+}
+
+/* FOOTER --------------------------------------------------------------------------------------------*/
+
+/* Style of the footer */
+/* Note that this is an overwriting of a Bootstrap class! */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+/* Style of hours and address sections */
+.hours, .address {
+    line-height: 2;
+}
+
+/* Style of testimonials section */
+.testimonials {
+    font-style: italic;
+}
+.testimonials .quote-author {
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: end;
+}
+
+/* Style of the disclaimer */
+.disclaimer {
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Style of the footer separator */
+.footer-separator {
+    border-color: #ffde59;
+}
+
+/* CATEGORIES PAGE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the container of the tiles */
+.category-tile {
+    position: relative; /* this will set up the 'anchor' for the child elements*/
+    border: #ffde59 solid 4px;
+    overflow: hidden;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto 15px;
+    margin-bottom: 50px;
+}
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #ffde59; /* the elements will 'shine' when we pass the pointer on them */
+}
+.category-tile img {
+    object-fit: cover;
+}
+
+/* Style of the tile names */
+.category-tile span {
+    position: absolute; /* this means that it's absolute respect to the parent element (same principle for further settings)*/
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #737373;
+    color: #ffde59;
+    opacity: 0.8;
+}
+
+/* ITEMS PAGE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the category description */
+.category-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Style of the container of the tiles */
+.item-tile {
+    position: relative;
+    border: #ffde59 solid 4px;
+    overflow: hidden;
+    max-width: 220px;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Style of the item name, description and horizontal rule separator (the latter only in XS screen)*/
+.item-name {
+    margin: 0 0 10px;
+}
+.item-description {
+    font-size: 0.9em;
+    font-style: italic;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.item-separator {
+    border-color: #ffde59;
+    width: 60%;
+}
+
+
+/* EXPERTISE PAGE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the expertise name */
+.expertise-name {
+    text-align: center;
+}
+
+/* Style of the expertise description */
+.expertise-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.expertise-description a {
+    color: lightblue;
+}
+
+/* Style of the container of the tiles */
+.expertise-tile {
+    position: relative;
+    border: #ffde59 solid 4px;
+    overflow: hidden;
+    max-width: 350px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Style of the expertise separator */
+.expertise-separator {
+    border-color: #ffde59;
+}
+
+
+/* ABOUT US PAGE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the about us name */
+.about-us-name {
+    text-align: center;
+}
+
+/* Style of the about us description */
+.about-us-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Style of the about us description */
+.about-us-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.expertises, .expertises a {
+    color: lightblue;
+
+}
+.expertises {
+    margin-top: 0px;
+}
+
+/* Style of the container of the tiles */
+.about-us-tile {
+    position: relative;
+    border: #ffde59 solid 4px;
+    overflow: hidden;
+    max-width: 550px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Style of the expertise separator */
+.about-us-separator {
+    border-color: #ffde59;
+}
+
+
+/* CONTACT US PAGE (+ messagge sent page) ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style of the about us description */
+.contact-us-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* Style of the input fields */
+input {
+    color: #000
+}
+
+/* Style of the container of the tiles */
+.field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.field #input-message, #sendButton {
+    color: #000;
+}
+
+/* Style of the explanation under the title */
+.message-sent-description {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* MEDIA QUERIES --------------------------------------------------------------------------------------------*/
+/* Make adjustments here if the standard Bootstrap media queries do not give perfect results */
+
+/****************Large devices***************/
+@media (min-width: 1200px) {
+
+    /* Redefine some Bootstrap jumbotron stylings */
+    .container .jumbotron {
+        background: url('../images/jumbotron-large.jpg') no-repeat;
+        background-size: cover;
+        height: 650px;
+    }
+}
+
+/****************Medium devices***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Define a different logo to be used and its sizes */
+    .logo {
+        background: url('../images/main-logo-medium.gif') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px -10px;
+    }
+
+    /* Redefine some Bootstrap jumbotron stylings */
+    .container .jumbotron {
+        background: url('../images/jumbotron-large.jpg') no-repeat;
+        background-size: cover;
+        height: 570px;
+    }
+}
+/****************Small devices***************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* General style of the navbar */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    /* Style of the primary text on the navbar */
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;  /* (1vw = 1% of viewport width) */
+    }
+
+    .navbar-right {
+        text-align: center;
+    }
+
+    /* Redefine some Bootstrap jumbotron stylings */
+    .container .jumbotron {
+        background: url('../images/jumbotron-large.jpg') no-repeat;
+        background-size: cover;
+        height: 450px;
+    }
+
+    /* Style of the expertise tile */
+    .expertise-tile {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/****************Extra small devices***************/
+@media (max-width: 767px) {    
+
+    /* General style of the navbar */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    /* Style of the primary text on the navbar */
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 5vw;  /* (1vw = 1% of viewport width) */
+    }
+
+    /* Style of the secondary text on the navbar */
+    .navbar-brand p {
+        font-size: 0.6em;
+        margin-top: 12px;
+    }
+
+    /* Style the glyphs of the collapsed menu */
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    /* Redefine some Bootstrap jumbotron stylings */
+    .container .jumbotron {
+        /* the background image shouldn't be specified since it is alreade loaded in the HTML */
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    /* Redefine some home tiles values */
+    .home-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+
+    /* Style of the footer */
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .panel-footer section hr {
+        width: 50%;
+    }
+
+    /* Style of the item tile */
+    .item-tile {
+        margin-right: auto;
+        max-width: 400px;
+    }
+
+    /* Style of the item title and description */
+    .item-name {
+        text-align: center;
+    }
+    .item-description {
+        text-align: center;
+    }
+
+    /* Style of the expertise tile */
+    .expertise-tile {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/****************Extra extra small devices***************/
+@media (max-width: 479px) {
+
+    /* Define a Bootstrap-like xxs-layout */
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+
+    /* Style of the primary text on the navbar */
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;  /* (1vw = 1% of viewport width) */
+    }
+
+    /* Redefine some home tiles values */
+    .home-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+}

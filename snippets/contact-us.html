@@ -1,0 +1,29 @@
+<!-- Create the title and a secondary text -->
+<h2 class="text-center">Contact us</h2>  <!-- 'text-center' is a Bootstrap class to center the content at the middle of the page width -->
+<p class="contact-us-description text-center">You can contact us by sending us a message filling in the following form or telephonically (during opening hours) on +01 123-456-789</p>
+
+<form>
+
+    <!-- Create the name-field -->
+    <div class="field">
+        <label for="input-name">Your Name: </label>
+        <input id="input-name" type="text" placeholder="Input your name here" required>
+    </div>
+    
+    <!-- Create email-field -->
+    <div class="field">
+        <label for="input-email">Your e-mail: </label>
+        <input id="input-email" type="email" placeholder="Input your e-mail here" required>
+    </div>
+
+    <!-- Create message-field -->
+    <div class="field">
+        <label for="input-message">Your message: </label>
+        <textarea id="input-message" placeholder="Input your message here" rows="10" cols="38" required></textarea>
+    </div>
+
+    <!-- Create a sending button -->
+    <input id="sendButton" type="submit" value="Send your message" onclick="$dc.loadMessageSent();">
+    <!-- <button id="sendButton" onclick="$dc.loadMessageSent();">Send your message</button> -->
+
+</form>

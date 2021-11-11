@@ -1,0 +1,30 @@
+<!-- Create the jumbotron image  -->
+<div class="jumbotron"> <!-- 'jumbotron' is a Bootstrap class to use the correct image resolution for different screen sizes -->
+  <img src="images/jumbotron-large.jpg" alt="Company office" class="img-responsive visible-xs">
+</div>
+
+<!-- Create the home tiles -->
+<div class="row">  <!-- 'row' is a Bootstrap class to specify that we will be dealing with 1/12 width subdivision -->
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <a href="#" onclick="$dc.loadCategories();">
+      <div class="home-tile" id="projects-tile">
+        <span>projects</span>
+      </div></a>
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <a href="#" onclick="$dc.loadExpertise();">
+      <div class="home-tile" id="expertise-tile">
+        <span>expertise</span>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+    <a href="https://goo.gl/maps/JDFPQ9MA6yunGvmVA" target="_blank">
+      <div class="home-tile" id="map-tile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20Stati%20Uniti!5e0!3m2!1sit!2snl!4v1633964689039!5m2!1sit!2snl" width="768" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <span>location</span>
+      </div>
+    </a>
+  </div>
+</div>
+ 

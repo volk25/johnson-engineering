@@ -1,0 +1,22 @@
+{
+    "items": [   
+        {
+            "item_id":1,
+            "item_code":"DRE1",
+            "item_name":"Sea Lion Vessel",
+            "item_description":"Waterborne vessel equipped with a device for scraping or sucking the seabed. The dredger is designed to remove material, such as sand and gravel, from the bed of the sea."
+        },
+        {
+            "item_id":2,
+            "item_code":"DRE2",
+            "item_name":"Cutter Suction Dredgers",
+            "item_description":"Johnson Engineering designs and builds a variety of standardised and custom-built cutter suction dredgers (CSDs). These are capable of dredging compacted soil types and materials, such as clay and rock. High accuracy and a continuous rate of production ensure that our cutter suction dredgers are ideal for many dredging jobs, such as land reclamation and the construction of new harbour basins and canals."
+        }
+    ],
+    "category":
+        {
+        "category_code":"DRE",
+        "category_name":"Dredging Projects",
+        "category_description":"We enable our customers to outperform in their industries with our trailing suction hopper dredgers, cutter suction dredgers and other dredging vessels. Our broad spectrum of products is ideal for the completion of all types of dredging projects."
+        }
+}

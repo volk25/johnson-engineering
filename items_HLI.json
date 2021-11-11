@@ -1,0 +1,22 @@
+{
+    "items": [   
+        {
+            "item_id":1,
+            "item_code":"HLI1",
+            "item_name":"Sea-whale HL",
+            "item_description":"The Sea-whale HL is a floating crane installation for performing complex off-shore lifting operations. The crane is designed to withstend extreme loads and to balance itself even with relatively strong waves."
+        },
+        {
+            "item_id":2,
+            "item_code":"HLI2",
+            "item_name":"Long-beam Platform Crane",
+            "item_description":"Extremely performant long-beam offshore platform-crane capable of lifting HTR and THR loads. Installed with the most advanced techniques in order to save time and to optimize the performances."
+        }
+    ],
+    "category":
+        {
+        "category_code":"HLI",
+        "category_name":"Heavy-lifting Projects",
+        "category_description":"We design and manufacture heavy lifting equipment. For more than 30 years, we’ve used our expertise to deliver intelligent and innovative solutions that maintain the highest level of quality, reliability and safety. We are passionate about solving your challenges, together. We will be your supplier and partner; we will support you throughout the entire life of your project, your success is ours."
+        }
+}

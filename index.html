@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Johnson Engineering</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet"> 
+  </head>
+
+  <!-- Create the body -->
+  <body>
+
+  <!-- Create the header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+
+      <!--Create a static container for the navbar-->
+      <div class="container">
+        <div class="navbar-header">
+
+          <!--Insert the logo on the header-->
+          <a href="index.html" class="pull-left visible-md visible-lg">  <!-- 'pull-left', 'visible-md' and 'visible-lg' are Bootstrap class to specify respectively float-left and that the element should be visible only in medium and large screen modes-->
+            <div class="logo" alt=""></div>
+          </a>
+
+          <!--Create the brand of the header -->
+          <div class="navbar-brand">  <!-- 'navbar-brand' is a Bootstrap class to specify that we're designing the brand of the header--> 
+
+            <!--Create the name-->
+            <a href="index.html">
+              <h1>Johnson Engineering</h1>
+            </a>
+
+            <!--Create a secondary text under the name-->
+            <p>consulting your building projects</p>
+            <br class="visible-sm">
+
+          </div>
+
+          <!-- Create the navigation button (position and properties definition)-->
+          <!-- When defining the collapsible menu, it will need to have the id set to 'collapsable-nav' (basically what the data-target attribute is referred to)-->
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+        </div>
+
+        <!-- Create the entries of the navigation button -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active"> <!-- the class of this will be targeted by the Javascript to add or remove the class 'active' -->
+              <a href="index.html"></span>Home</a>
+            </li>
+            <li id="navProjectsButton" class=""> <!-- the class of this will be targeted by the Javascript to add or remove the class 'active' -->
+              <a href="#" onclick="$dc.loadCategories();">Projects</a>
+            </li>
+            <li id="navExpertiseButton" class=""> <!-- the class of this will be targeted by the Javascript to add or remove the class 'active' -->
+              <a href="#" onclick="$dc.loadExpertise();">Expertise</a>
+            </li>
+            <li id="navAboutUsButton" class=""> <!-- the class of this will be targeted by the Javascript to add or remove the class 'active' -->
+              <a href="#" onclick="$dc.loadAboutUs();">About us</a>
+            </li>
+            <li id="navContactUsButton" class=""> <!-- the class of this will be targeted by the Javascript to add or remove the class 'active' -->
+              <a href="#" onclick="$dc.loadContactUs();">Contact us</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- Create a static container for the main content -->
+  <!-- The container should be created in order to allign the main content with the width of the header -->
+  <!-- IMPORTANT: Everything will be loaded in the main content from other pages of the site by loading dynamically the content by Javascript -->
+  <div id="main" class="container"></div>
+
+  <!-- Create the footer -->
+  <footer class="panel-footer">  <!-- 'panel-footer' is a Bootstrap class to specify that we're designing a footer -->
+
+    <!-- Create a static container for the footer -->
+    <div class="container">
+
+      <!-- Create the footer -->
+      <div class="row">  <!-- 'row' is a Bootstrap class to specify that we will be dealing with 1/12 width subdivision -->
+        <section class="hours col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <span>Hours:</span><br>
+          Sun-Fri: 9:00 - 17:00pm<br>
+          Saturday and Sunday closed
+          <hr class="footer-separator visible-xs">
+        </section>
+        <section class="address col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <span>Address:</span><br>
+          1298 Johnson Street<br>
+          New York, NY 1010
+          <hr class="footer-separator visible-xs">
+        </section>
+        <section class="testimonials col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>"We shape our buildings, thereafter they shape us."</p>
+          <p class="quote-author">Winston Churchill</p>
+          <p>"There can be little doubt that in many ways the story of bridge building is the story of civilisation. By it we can readily measure an important part of a people’s progress."</p>
+          <p class="quote-author">Franklin D. Roosvelt</p>
+          <hr class="footer-separator visible-xs"> 
+        </section>
+      </div> 
+      <div class="disclaimer text-center">
+        Fictional website realized only for educational purposes (personal portfolio) without any commercial use but only for showing programming skills of the author.
+      </div> 
+    </div>
+  </footer>
+
+  <!-- Javascripts references -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script> 
+  <script src="js/script.js"></script>  <!-- user defined Javascript file -->
+
+</body>
+</html>

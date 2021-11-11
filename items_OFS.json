@@ -1,0 +1,22 @@
+{
+    "items": [   
+        {
+            "item_id":1,
+            "item_code":"OFS1",
+            "item_name":"UT-89 Platform",
+            "item_description":"Started in 2019 and still under construction, this platform responds to FTT standards and has been awarded with GHT+ categorization. Currently almost fully operative in the Baily's Bay."
+        },
+        {
+            "item_id":2,
+            "item_code":"OFS2",
+            "item_name":"HT-7 Gas Extraction Platform",
+            "item_description":"Still under construction in the North Sea HTF-type gas-extraction platform with JHY equipment."
+        }
+    ],
+    "category":
+        {
+        "category_code":"OFS",
+        "category_name":"Offshore Projects",
+        "category_description":"We give advices about the design and manufacture of offshore platforms. For more than 30 years, we’ve used our expertise to deliver intelligent and innovative solutions that maintain the highest level of quality, reliability and safety. We are passionate about solving your challenges, together. We will be your supplier and partner; we will support you throughout the entire life of your project, your success is ours."
+        }
+}
